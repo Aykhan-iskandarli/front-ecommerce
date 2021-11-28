@@ -1,0 +1,22 @@
+.rating span svg{
+    color: orange !important;
+    font-size: 18px;
+
+}
+.rating{
+    display: flex;
+    align-items: center !important;
+    /* justify-content: space-between; */
+}
+.rating >div{
+    display: flex;
+    align-items: center !important;  
+}
+
+.reviews{
+
+    font-weight: 600;
+    
+}
+
+

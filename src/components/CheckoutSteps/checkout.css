@@ -1,0 +1,23 @@
+.checkout-steps{
+    display: flex;
+}
+.checkout-steps > div{
+    width: 100%;
+    border-top: 5px solid lightgray;
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-weight: 600;
+    color: lightgray;
+    text-align: center;
+}
+/* .checkout-steps>div:not(:first-child){
+    text-align: center;
+} */
+
+.activeStep{
+    border-top-color: rgb(0, 91, 119) !important;
+    color: rgb(0, 91, 119) !important;
+}
+  
+  

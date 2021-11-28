@@ -1,0 +1,19 @@
+.shipping-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+}
+.shipping-section{
+    margin-top: 80px;
+}
+.shipping-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.shipping{
+    width: 600px;
+
+}

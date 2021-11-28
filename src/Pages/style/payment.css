@@ -1,0 +1,40 @@
+.payment-section{
+    margin-top: 50px;
+}
+
+.payment-text{
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.payment{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.payment-div{
+    width: 100%;
+}
+
+.payment-button{
+    width: 100%;
+}
+
+.payment-btn{
+    padding: 7px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: rgb(3, 116, 116);
+    transition: all .4s ease;
+}
+
+.payment-btn:hover{
+    background-color: rgb(27, 134, 134);
+}

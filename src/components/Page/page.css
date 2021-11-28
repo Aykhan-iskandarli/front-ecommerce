@@ -1,0 +1,12 @@
+.page{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 1040px) {
+    .page{
+        width: 100%;
+    }
+
+}

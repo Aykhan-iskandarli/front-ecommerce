@@ -1,0 +1,143 @@
+.footer_section{
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 100px ;
+ 
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+
+.footer-logo{
+    margin-top: 5px;
+    height: 100%;
+}
+.footer-logo h2, .footer-logo p, .footer-logo li{
+  margin: 20px 0;
+}
+.footer-logo p{
+    line-height: 22px;
+    font-size: 17px;
+}
+.footer-logo h2{
+    font-size: 25px;
+}
+.footer-icon svg{
+    margin-right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.footer-icon svg:hover{
+    transform: rotate(360deg);
+}
+.face{
+    color: #4267B2;
+}
+.insta{
+   color:  #C13584;
+}
+.wp{
+    color: #25D366
+    ;
+}
+.twitter{
+    color: #1DA1F2
+    ;
+}
+
+.footer-logo p{
+    width: 300px;
+}
+
+.footer-icon{
+    display: flex;
+}
+.useful-link{
+    height: 100%;
+    margin-top: 20px;
+}
+.useful-link h2{
+    font-size: 27px;
+}
+
+.useful-link li{
+    width: 200px;
+   margin: 20px 0;
+   transition:  all .4s ease;
+}
+.useful-link li a{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(17, 17, 59);
+    transition:  all .4s ease;
+}
+
+.useful-link-2{
+    margin-top: 45px;
+}
+.useful-link-2 li{
+    width: 200px;
+    margin: 20px 0;
+    transition:  all .4s ease;
+ }
+ .useful-link-2 li a{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(17, 17, 59);
+    transition:  all .4s ease;
+
+}
+.useful-link a:hover, .useful-link-2 a:hover{
+    color: rgb(26, 104, 104);
+    
+}
+
+.useful-link-2 li:hover,.useful-link li:hover{
+    transform: scale(1.1);
+}
+
+
+.footer-contact{
+    margin-top: 40px;
+}
+
+.footer-contact li{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.footer-contact li svg{
+    margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .footer,.footer-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .footer-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-logo p{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_section{
+        height: 100%;
+  
+     
+    }
+}
